@@ -1,0 +1,1165 @@
+[ 2019-08-16T08:49:49+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0068s ]
+SQL: SELECT `sys_des2` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.1293s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0015s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.300459s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CommonController::getSysInfo(), called in E:\code\wanyu\Application\Home\Controller\PublicController.class.php on line 20 and defined E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: field E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 7 行.
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.310584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005599s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005805s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2019-08-16T08:51:03+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0052s ]
+SQL: SELECT `sys_des2` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089253s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CommonController::getSysInfo(), called in E:\code\wanyu\Application\Home\Controller\PublicController.class.php on line 20 and defined E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: field E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 7 行.
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004585s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004732s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2019-08-16T08:51:06+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0185s ]
+SQL: SELECT `sys_des2` FROM `wy_system` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0006s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014708s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CommonController::getSysInfo(), called in E:\code\wanyu\Application\Home\Controller\PublicController.class.php on line 20 and defined E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: field E:\code\wanyu\Application\Home\Controller\CommonController.class.php 第 7 行.
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001992s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002085s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2019-08-16T08:53:39+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-08-16T09:07:10+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: keyword E:\code\wanyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012503s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001688s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001779s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2019-08-16T09:08:42+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0015s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.125015s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.128874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002310s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002438s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2019-08-16T09:09:11+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0969s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0015s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.118267s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.128072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004406s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2019-08-16T09:09:27+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011663s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002506s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002611s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2019-08-16T10:27:34+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0006s ]
+
+[ 2019-08-16T10:35:08+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0004s ]
+
+[ 2019-08-16T10:36:08+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0054s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005601s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002087s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002188s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2019-08-16T10:36:37+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0651s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0007s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007273s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002083s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002184s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2019-08-16T10:40:39+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0021s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009792s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+NOTIC: [8] Undefined index: cate_des E:\code\wanyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: cate_des E:\code\wanyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: cate_des E:\code\wanyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002961s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003283s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2019-08-16T10:41:20+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0068s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0006s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008298s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002411s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002535s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2019-08-16T10:47:57+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0042s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0006s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010171s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002646s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002769s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2019-08-16T11:07:06+08:00 ] 127.0.0.1 /index.php/Home/list/show_list/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0051s ]
+SQL: SELECT `cate_pid` FROM `wy_category` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `wy_category` WHERE ( cate_id=9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wy_category` INNER JOIN wy_template ON wy_template.temp_id = wy_category.cate_list_tempid  WHERE `cate_id` = '10' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_catecont` [ RunTime:0.0043s ]
+SQL: SELECT `con_content` FROM `wy_catecont` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0049s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011888s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_url`,`cate_pid` FROM `wy_category` WHERE ( cate_pid=9 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031601s ]
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017463s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018831s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002782s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002921s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2019-08-16T11:07:11+08:00 ] 127.0.0.1 /index.php/Home/list/show_list/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT `cate_pid` FROM `wy_category` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `wy_category` WHERE ( cate_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wy_category` INNER JOIN wy_template ON wy_template.temp_id = wy_category.cate_list_tempid  WHERE `cate_id` = '10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_catecont` [ RunTime:0.0044s ]
+SQL: SELECT `con_content` FROM `wy_catecont` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0041s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009800s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_url`,`cate_pid` FROM `wy_category` WHERE ( cate_pid=9 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013290s ]
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001547s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002698s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001774s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001862s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2019-08-16T11:17:52+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0072s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004518s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002502s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002619s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2019-08-16T11:22:08+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0137s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0006s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006617s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013941s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002437s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002558s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2019-08-16T14:42:06+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0045s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0051s ]
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+
+[ 2019-08-16T14:42:20+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0051s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0054s ]
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+
+[ 2019-08-16T14:42:23+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0074s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0053s ]
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY id desc 
+
+[ 2019-08-16T14:44:10+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0078s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0975s ]
+SQL: SELECT * FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY art_id desc  [ RunTime:0.0008s ]
+
+[ 2019-08-16T14:46:27+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0045s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0894s ]
+SQL: SELECT `art_id`,`art_name`,`art_litpic`,`art_des` FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY art_id desc  [ RunTime:0.0005s ]
+
+[ 2019-08-16T17:38:28+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0036s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0033s ]
+SQL: SELECT `art_id`,`art_name`,`art_litpic`,`art_des` FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY art_id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034903s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011889s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012033s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2019-08-16T17:38:41+08:00 ] 127.0.0.1 /index.php/Home/list/show_list/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0048s ]
+SQL: SELECT `cate_pid` FROM `wy_category` WHERE ( cate_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `wy_category` WHERE ( cate_id=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wy_category` INNER JOIN wy_template ON wy_template.temp_id = wy_category.cate_list_tempid  WHERE `cate_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_catecont` [ RunTime:0.0051s ]
+SQL: SELECT `con_content` FROM `wy_catecont` WHERE ( cate_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_article` WHERE ( is_online='1' and cate_id=3 and FIND_IN_SET('p', art_attr) ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `art_id`,`art_name`,`art_short_name`,`art_attr`,`cate_id`,`art_litpic`,`art_sort`,`art_keyword`,`art_des`,`art_author`,`art_source`,`is_comments`,`art_time`,`art_text`,`art_viewed`,`is_online` FROM `wy_article` WHERE ( is_online='1' and cate_id=3 and FIND_IN_SET('p', art_attr) ) ORDER BY art_id LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0042s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066629s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_url`,`cate_pid` FROM `wy_category` WHERE ( cate_pid=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.076646s ]
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079508s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.080671s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.151022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001848s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.082053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.083332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001941s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.082053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.083423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2019-08-16T17:40:38+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0039s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0052s ]
+SQL: SELECT `art_id`,`art_name`,`art_litpic`,`art_des` FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY art_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004327s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001555s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001647s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2019-08-16T17:40:41+08:00 ] 127.0.0.1 /index.php/Home/list/show_list/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0049s ]
+SQL: SELECT `cate_pid` FROM `wy_category` WHERE ( cate_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `wy_category` WHERE ( cate_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wy_category` INNER JOIN wy_template ON wy_template.temp_id = wy_category.cate_list_tempid  WHERE `cate_id` = '4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_catecont` [ RunTime:0.0039s ]
+SQL: SELECT `con_content` FROM `wy_catecont` WHERE ( cate_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_article` WHERE ( is_online='1' and cate_id=4 and FIND_IN_SET('p', art_attr) ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `art_id`,`art_name`,`art_short_name`,`art_attr`,`cate_id`,`art_litpic`,`art_sort`,`art_keyword`,`art_des`,`art_author`,`art_source`,`is_comments`,`art_time`,`art_text`,`art_viewed`,`is_online` FROM `wy_article` WHERE ( is_online='1' and cate_id=4 and FIND_IN_SET('p', art_attr) ) ORDER BY art_id LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0045s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022972s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_url`,`cate_pid` FROM `wy_category` WHERE ( cate_pid=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033176s ]
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+NOTIC: [8] Undefined index: cate_id E:\code\wanyu\Application\Runtime\Cache\Home\ec64167d09ef86218fa9e09ad6e88c30.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009101s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011603s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001832s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2019-08-16T17:41:02+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0036s ]
+SQL: SELECT `cate_id`,`cate_name`,`cate_des`,`cate_pid`,`cate_litpic` FROM `wy_category` WHERE ( cate_pid=9 and cate_status="1" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0032s ]
+SQL: SELECT `art_id`,`art_name`,`art_litpic`,`art_des` FROM `wy_article` WHERE ( is_online="1" and FIND_IN_SET("c",art_attr) ) ORDER BY art_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' ) ORDER BY cate_sort  [ RunTime:0.0006s ]
+SQL: SELECT `sys_concept` FROM `wy_system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004719s ]
+NOTIC: [8] Undefined index: children E:\code\wanyu\Application\Runtime\Cache\Home\a2dce8bbd958434f8512d260119226ac.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+SQL: SELECT * FROM `wy_system` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001535s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001633s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+

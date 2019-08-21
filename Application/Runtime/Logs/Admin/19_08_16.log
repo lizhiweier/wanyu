@@ -1,0 +1,2806 @@
+[ 2019-08-16T08:48:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+
+[ 2019-08-16T08:49:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2019-08-16T08:49:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/chk_code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2019-08-16T08:49:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0780s ]
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wy_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-08-16T08:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `wy_auth` [ RunTime:0.0666s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0044s ]
+SQL: SELECT m.mg_name,r.role_name FROM wy_manager as m INNER JOIN wy_role as r on m.mg_role_id=r.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2019-08-16T08:49:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2019-08-16T08:49:23+08:00 ] 127.0.0.1 /index.php/Admin/System/system_base
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `wy_system` [ RunTime:0.0937s ]
+SQL: SELECT * FROM `wy_system` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2019-08-16T09:23:46+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+
+[ 2019-08-16T09:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2019-08-16T09:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/chk_code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2019-08-16T09:23:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0144s ]
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wy_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+
+[ 2019-08-16T09:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `wy_auth` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0065s ]
+SQL: SELECT m.mg_name,r.role_name FROM wy_manager as m INNER JOIN wy_role as r on m.mg_role_id=r.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2019-08-16T09:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `wy_auth` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0071s ]
+SQL: SELECT m.mg_name,r.role_name FROM wy_manager as m INNER JOIN wy_role as r on m.mg_role_id=r.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2019-08-16T09:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2019-08-16T09:24:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2019-08-16T09:30:38+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2019-08-16T09:30:50+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0056s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2019-08-16T09:32:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] unlink(./Public/): Permission denied E:\code\wanyu\Application\Admin\Controller\CategoryController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+
+[ 2019-08-16T09:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0045s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2019-08-16T09:35:26+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0080s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Public/): Permission denied E:\code\wanyu\Application\Admin\Controller\CategoryController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-08-16T09:35:30+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0053s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2019-08-16T09:35:46+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./Public/): Permission denied E:\code\wanyu\Application\Admin\Controller\CategoryController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+
+[ 2019-08-16T09:35:50+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0041s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-08-16T09:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0045s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Public/): Permission denied E:\code\wanyu\Application\Admin\Controller\CategoryController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-08-16T09:36:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0057s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2019-08-16T09:36:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0055s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Public/): Permission denied E:\code\wanyu\Application\Admin\Controller\CategoryController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-08-16T09:36:46+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0067s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2019-08-16T09:39:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='10',`cate_pid`='9',`cate_name`='中职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='21',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='依托北京大学和方正集团，坚持以服务首都“四个中心”战略定位为目标，以服务京津冀协同发展职业人才需求为导向，创建“电子信息+”的特色专业，坚持“规范办学、特色办学、追求卓越、持续发展”的办学方针，致力于培养新经济和新产业所需要的具有现代职业技能的专业化、国际化人才。',`cate_litpic`='./Uploads/category/20190816/1565919582.jpg' WHERE ( cate_id=10 ) [ RunTime:0.1040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+
+[ 2019-08-16T09:39:44+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2019-08-16T09:40:16+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0052s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2019-08-16T09:40:25+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0100s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='10',`cate_pid`='9',`cate_name`='中职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='21',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='依托北京大学和方正集团，坚持以服务首都“四个中心”战略定位为目标，以服务京津冀协同发展职业人才需求为导向，创建“电子信息+”的特色专业，坚持“规范办学、特色办学、追求卓越、持续发展”的办学方针，致力于培养新经济和新产业所需要的具有现代职业技能的专业化、国际化人才。',`cate_litpic`='./Uploads/category/20190816/1565919625.jpg' WHERE ( cate_id=10 ) [ RunTime:0.1247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-08-16T09:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-08-16T09:40:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2019-08-16T09:47:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0047s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2019-08-16T09:48:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0083s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='11',`cate_pid`='9',`cate_name`='高职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='22',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='“尚自然、展个性、崇国学、重探究”融合西方先进幼教育理念，将学前教育与儿童心理相结合，实施个性化教育，为儿童营造生态、自然、平等、宽容的成长环境，注重儿童的差异化需要和国学文化需求，满足幼儿探索与求知的愿望，促进儿童身心全面健康和谐的发展。',`cate_litpic`='./Uploads/category/20190816/1565920097.jpg' WHERE ( cate_id=11 ) [ RunTime:0.0502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-08-16T09:48:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2019-08-16T09:48:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0859s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0083s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2019-08-16T09:48:55+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0054s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='23',`cate_pid`='9',`cate_name`='师资队伍',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='23',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='我们与美国、英国、加拿大、台湾等多个国家和地区的院校或教育机构建立了密切的合作关系，在护理、机务维修、财经类专业等多领域开展了深度合作，鼓励学生走出国门，到国际上更多的优秀大学留学，体验不同地区、国家文化生活的多样性，提升专业技能，开阔国际视野，享受到更多的优质教育资源。',`cate_litpic`='./Uploads/category/20190816/1565920135.jpg' WHERE ( cate_id=23 ) [ RunTime:0.0866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-08-16T09:48:57+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2019-08-16T09:49:03+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0065s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2019-08-16T09:49:09+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0055s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2019-08-16T09:49:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0086s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='1',`cate_pid`='0',`cate_name`='教育集团',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='0',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920157.jpg' WHERE ( cate_id=1 ) [ RunTime:0.0527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+
+[ 2019-08-16T09:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2019-08-16T09:49:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2019-08-16T09:49:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.1520s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0207s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='2',`cate_pid`='1',`cate_name`='集团概况',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='1',`cate_keyword`='saa',`cate_des`='fds',`cate_litpic`='./Uploads/category/20190816/1565920169.jpg' WHERE ( cate_id=2 ) [ RunTime:0.0437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+
+[ 2019-08-16T09:49:31+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2019-08-16T09:49:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2019-08-16T09:49:40+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0056s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2019-08-16T09:49:45+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0082s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='8',`cate_pid`='1',`cate_name`='战略布局',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='2',`cate_keyword`='战略布局',`cate_des`='宇航战略布局',`cate_litpic`='./Uploads/category/20190816/1565920185.jpg' WHERE ( cate_id=8 ) [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-08-16T09:49:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2019-08-16T09:51:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0055s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2019-08-16T09:51:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2019-08-16T09:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0052s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2019-08-16T09:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0090s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='3',`cate_pid`='0',`cate_name`='新闻资讯',`cate_list_tempid`='1',`cate_article_tempid`='6',`is_outlink`='1',`cate_url`='',`cate_sort`='10',`cate_keyword`='新闻资讯',`cate_des`='万豫新闻资讯',`cate_litpic`='./Uploads/category/20190816/1565920289.jpg' WHERE ( cate_id=3 ) [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+
+[ 2019-08-16T09:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2019-08-16T09:51:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0060s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2019-08-16T09:51:41+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0059s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='4',`cate_pid`='3',`cate_name`='集团动态',`cate_list_tempid`='1',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='11',`cate_keyword`='集团动态',`cate_des`='万豫集团动态',`cate_litpic`='./Uploads/category/20190816/1565920301.jpg' WHERE ( cate_id=4 ) [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+
+[ 2019-08-16T09:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2019-08-16T09:51:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0059s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2019-08-16T09:51:53+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='7',`cate_pid`='3',`cate_name`='院校动态',`cate_list_tempid`='9',`cate_article_tempid`='6',`cate_url`='111',`cate_sort`='12',`cate_keyword`='saa',`cate_des`='但是发射点发生',`cate_litpic`='./Uploads/category/20190816/1565920313.jpg' WHERE ( cate_id=7 ) [ RunTime:0.0591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+
+[ 2019-08-16T09:51:55+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2019-08-16T09:52:01+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0064s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2019-08-16T09:52:06+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-08-16T09:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0051s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='9',`cate_pid`='0',`cate_name`='职业教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='20',`cate_keyword`='职业教育',`cate_des`='万豫职业教育',`cate_litpic`='./Uploads/category/20190816/1565920332.jpg' WHERE ( cate_id=9 ) [ RunTime:0.1534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-08-16T09:52:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2019-08-16T09:52:20+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0058s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2019-08-16T09:52:26+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='12',`cate_pid`='0',`cate_name`='万豫教育',`cate_list_tempid`='1',`cate_article_tempid`='6',`is_outlink`='1',`cate_url`='http://www.yuhangedu.cn',`cate_sort`='30',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920346.jpg' WHERE ( cate_id=12 ) [ RunTime:0.0503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+
+[ 2019-08-16T09:52:28+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-08-16T09:52:37+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0046s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2019-08-16T09:52:45+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0845s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='14',`cate_pid`='12',`cate_name`='IT培训',`cate_list_tempid`='1',`cate_article_tempid`='6',`is_outlink`='1',`cate_url`='http://www.yuhangedu.cn',`cate_sort`='31',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920365.jpg' WHERE ( cate_id=14 ) [ RunTime:0.0555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+
+[ 2019-08-16T09:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2019-08-16T09:52:50+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0060s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2019-08-16T09:52:56+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='13',`cate_pid`='12',`cate_name`='航空服务',`cate_list_tempid`='1',`cate_article_tempid`='6',`is_outlink`='1',`cate_url`='http://www.yuhangedu.cn',`cate_sort`='32',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920376.jpg' WHERE ( cate_id=13 ) [ RunTime:0.0555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+
+[ 2019-08-16T09:52:58+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2019-08-16T09:53:02+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0056s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2019-08-16T09:53:09+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0082s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='15',`cate_pid`='12',`cate_name`='国际留学',`cate_list_tempid`='1',`cate_article_tempid`='6',`is_outlink`='1',`cate_url`='http://www.yuhangedu.cn',`cate_sort`='33',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920389.jpg' WHERE ( cate_id=15 ) [ RunTime:0.0624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-08-16T09:53:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2019-08-16T09:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0058s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2019-08-16T09:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0074s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='16',`cate_pid`='0',`cate_name`='合作办学',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='40',`cate_keyword`='合作办学',`cate_des`='万豫合作办学',`cate_litpic`='./Uploads/category/20190816/1565920401.jpg' WHERE ( cate_id=16 ) [ RunTime:0.0707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+
+[ 2019-08-16T09:53:23+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2019-08-16T09:53:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0706s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 18 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0064s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2019-08-16T09:53:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0042s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='18',`cate_pid`='0',`cate_name`='教育服务',`cate_list_tempid`='3',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='50',`cate_keyword`='教育服务',`cate_des`='万豫教育服务',`cate_litpic`='./Uploads/category/20190816/1565920415.jpg' WHERE ( cate_id=18 ) [ RunTime:0.0635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+
+[ 2019-08-16T09:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2019-08-16T09:53:41+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 19 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2019-08-16T09:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0084s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='19',`cate_pid`='0',`cate_name`='加入我们',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='60',`cate_keyword`='加入我们',`cate_des`='加入万豫教育集团',`cate_litpic`='./Uploads/category/20190816/1565920426.jpg' WHERE ( cate_id=19 ) [ RunTime:0.0749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-08-16T09:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2019-08-16T09:53:52+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0052s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2019-08-16T09:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='20',`cate_pid`='19',`cate_name`='诚聘英才',`cate_list_tempid`='4',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='61',`cate_keyword`='诚聘英才',`cate_des`='万豫招聘',`cate_litpic`='./Uploads/category/20190816/1565920438.jpg' WHERE ( cate_id=20 ) [ RunTime:0.1159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+
+[ 2019-08-16T09:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0106s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='20',`cate_pid`='19',`cate_name`='诚聘英才',`cate_list_tempid`='4',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='61',`cate_keyword`='诚聘英才',`cate_des`='万豫招聘',`cate_litpic`='./Uploads/category/20190816/1565920439.jpg' WHERE ( cate_id=20 ) [ RunTime:0.0968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+
+[ 2019-08-16T09:54:01+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003613s ]
+
+[ 2019-08-16T09:54:05+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0055s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2019-08-16T09:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0063s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 21 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='21',`cate_pid`='19',`cate_name`='联系我们',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='62',`cate_keyword`='联系我们',`cate_des`='联系万豫集团',`cate_litpic`='./Uploads/category/20190816/1565920451.jpg' WHERE ( cate_id=21 ) [ RunTime:0.0535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+
+[ 2019-08-16T09:54:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-08-16T09:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0454s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.1227s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2019-08-16T09:54:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _ret E:\code\wanyu\Application\Admin\Model\CategoryModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0062s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-08-16T09:54:40+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='1',`cate_pid`='0',`cate_name`='教育集团',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='0',`cate_keyword`='',`cate_des`='',`cate_litpic`='./Uploads/category/20190816/1565920480.jpg' WHERE ( cate_id=1 ) [ RunTime:0.0587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+
+[ 2019-08-16T09:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2019-08-16T10:47:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `wy_auth` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0054s ]
+SQL: SELECT m.mg_name,r.role_name FROM wy_manager as m INNER JOIN wy_role as r on m.mg_role_id=r.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2019-08-16T10:47:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2019-08-16T11:14:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2019-08-16T11:14:22+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0060s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2019-08-16T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='10',`cate_pid`='9',`cate_name`='中职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='21',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='依托北京大学和方正集团，坚持以服务首都“四个中心”战略定位为目标，以服务京津冀协同发展职业人才需求为导向，创建“电子信息+”的特色专业，坚持“规范办学、特色办学、追求卓越、持续发展”的办学方针，致力于培养新经济和新产业所需要的具有现代职业技能的专业化、国际化人才。',`cate_litpic`='./Uploads/category/2019-08-16/1565925272.png' WHERE ( cate_id=10 ) [ RunTime:0.0464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+
+[ 2019-08-16T11:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2019-08-16T11:17:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0051s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2019-08-16T11:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0092s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='11',`cate_pid`='9',`cate_name`='高职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='22',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='“尚自然、展个性、崇国学、重探究”融合西方先进幼教育理念，将学前教育与儿童心理相结合，实施个性化教育，为儿童营造生态、自然、平等、宽容的成长环境，注重儿童的差异化需要和国学文化需求，满足幼儿探索与求知的愿望，促进儿童身心全面健康和谐的发展。',`cate_litpic`='./Uploads/category/2019-08-16/1565925454.png' WHERE ( cate_id=11 ) [ RunTime:0.3431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+
+[ 2019-08-16T11:17:37+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2019-08-16T11:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0063s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2019-08-16T11:17:50+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0085s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='23',`cate_pid`='9',`cate_name`='师资队伍',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='23',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='我们与美国、英国、加拿大、台湾等多个国家和地区的院校或教育机构建立了密切的合作关系，在护理、机务维修、财经类专业等多领域开展了深度合作，鼓励学生走出国门，到国际上更多的优秀大学留学，体验不同地区、国家文化生活的多样性，提升专业技能，开阔国际视野，享受到更多的优质教育资源。',`cate_litpic`='./Uploads/category/2019-08-16/1565925470.png' WHERE ( cate_id=23 ) [ RunTime:0.0899s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+
+[ 2019-08-16T11:17:53+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2019-08-16T11:24:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wy_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wy_template` [ RunTime:0.0044s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `temp_id`,`temp_name` FROM `wy_template` WHERE ( temp_belong=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2019-08-16T11:24:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0082s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\code\wanyu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `cate_litpic` FROM `wy_category` WHERE `cate_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\code\wanyu\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `wy_category` SET `cate_id`='11',`cate_pid`='9',`cate_name`='高职教育',`cate_list_tempid`='2',`cate_article_tempid`='6',`cate_url`='',`cate_sort`='22',`cate_keyword`='中职教育，河南外贸学校，航空服务，计算机应用，大数据，UI，国际教育',`cate_des`='“尚自然、展个性、崇国学、重探究”融合西方先进幼教育理念，将学前教育与儿童心理相结合，实施个性化教育，为儿童营造生态、自然、平等、宽容的成长环境，注重儿童的差异化需要和国学文化需求，满足幼儿探索与求知的愿望，促进儿童身心全面健康和谐的发展。',`cate_litpic`='./Uploads/category/2019-08-16/1565925861.png' WHERE ( cate_id=11 ) [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+
+[ 2019-08-16T11:24:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/cate_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2019-08-16T14:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0051s ]
+SQL: SELECT `art_id`,`art_name`,wy_category.cate_name,`art_author`,`art_source`,`art_time`,`art_viewed`,`is_online` FROM `wy_article` INNER JOIN wy_category ON wy_article.cate_id = wy_category.cate_id   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: start_time E:\code\wanyu\Application\Runtime\Cache\Admin\f68c5a1a42542d9b876352dd3eb66abd.php 第 41 行.
+NOTIC: [8] Undefined variable: end_time E:\code\wanyu\Application\Runtime\Cache\Admin\f68c5a1a42542d9b876352dd3eb66abd.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2019-08-16T14:46:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_edit/art_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `wy_manager` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `wy_article` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `wy_article` WHERE ( art_id=4 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wy_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `wy_category` WHERE ( cate_status='1' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+

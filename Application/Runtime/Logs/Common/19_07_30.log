@@ -1,0 +1,852 @@
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-switcher.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/animated-headlines.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/meanmenu.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/nivo-slider.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/preview.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/material-design-iconic-font.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/slick.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.mb.YTPlayer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/material-design-iconic-font.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/modernizr-2.8.3.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.nivo.slider.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery-1.12.4.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/bootstrap.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/home.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/wow.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.meanmenu.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/owl.carousel.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.scrollUp.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/waypoints.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.counterup.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/slick.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/animated-headlines.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/lettering.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.mb.YTPlayer.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/textilate.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/main.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/styleswitch.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/plugins.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/1(1).jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/2(1).jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/1219030535ot.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/11103454xl2a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.ajaxchimp.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004184s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/20185249h0f2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-one.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/footer.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/10192310xkl2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-three.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-four.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-six.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-five.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-seven.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-eight.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-nine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-ten.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/pattren1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/pattren3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/pattren4.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/pattren5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/background1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/background2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/background3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/color-two.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/background4.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/pattren2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/background5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/ajax-mail.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:48+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.nivo.slider.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/home.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.meanmenu.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/wow.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/owl.carousel.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.scrollUp.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/waypoints.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.counterup.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/slick.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/animated-headlines.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/textilate.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/lettering.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.mb.YTPlayer.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/jquery.ajaxchimp.min.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/ajax-mail.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/plugins.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/styleswitch.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:05:49+08:00 ] 127.0.0.1 /index.php/%E4%B8%80%E7%BA%A7%20%E5%8C%97%E5%A4%A7%E6%96%B9%E6%AD%A3%E6%95%99%E8%82%B2%E9%9B%86%E5%9B%A2_files/main.js.%E4%B8%8B%E8%BD%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:一级 北大方正教育集团_files
+
+[ 2019-07-30T10:15:11+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:15:16+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:20:26+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:20:31+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:21:17+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:21:22+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:22:14+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:22:19+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:22:38+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:22:43+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:24:06+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:24:11+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:28:04+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:28:09+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:29:42+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:29:47+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:33:10+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:33:15+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:35:45+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:35:50+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:37:11+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:37:16+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:44:54+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:44:59+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:53:39+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:53:44+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:55:05+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:55:11+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:56:04+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:56:09+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:56:41+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:56:46+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:57:36+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T10:57:41+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:01:05+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:01:10+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:02:36+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:02:41+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:03:50+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:03:55+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:04:32+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:04:52+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:04:57+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:07:19+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:07:24+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:11:12+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:11:17+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:16:28+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:16:30+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:16:32+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:16:33+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:16:42+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:18:43+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Undefined
+
+[ 2019-07-30T11:18:48+08:00 ] 127.0.0.1 /index.php/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Undefined
+

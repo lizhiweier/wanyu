@@ -1,0 +1,32 @@
+<!--Header Area Start-->
+<header>
+<div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mainmenu-area pull-right">
+					<div class="mainmenu hidden-sm hidden-xs">
+						<nav>
+							<ul id="nav" class=" list-paddingleft-2">
+								<?php foreach($data as $k=>$v): ?>
+								<li>
+									
+									<p class="mycolor" <?php 
+										if($v['cate_id'] == $info['cate_id']){
+											echo 'style="border-bottom: 3px solid; line-height: 59px; margin: 0px;"';
+										} 
+									?>>
+										<a href="__CONTROLLER__/show_list/id/{$v.cate_id}" target="_self">{$v.cate_name}</a>
+									</p>
+								</li>
+								<?php endforeach; ?>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="spliter"></div>
+</div>
+</header>
